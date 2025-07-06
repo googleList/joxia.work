@@ -1,0 +1,1 @@
+(function(a){a("#owl-testi").owlCarousel({autoPlay:3000,items:2,itemsDesktop:[1199,2],itemsDesktopSmall:[979,2]})})(jQuery);

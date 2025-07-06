@@ -1,0 +1,1 @@
+var a=0;$(window).scroll(function(){var b=$("#counter").offset().top-window.innerHeight;if(a==0&&$(window).scrollTop()>b){$(".counter-value").each(function(){var c=$(this),d=c.attr("data-count");$({countNum:c.text()}).animate({countNum:d},{duration:2000,easing:"swing",step:function(){c.text(Math.floor(this.countNum))},complete:function(){c.text(this.countNum)}})});a=1}});
